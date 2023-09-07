@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1>Artists Database</h1>
+    </header>
+    <div class="create-btn">
+      <button class="create">Create new artist</button>
+    </div>
+    <section class="tools-grid">
+      
+        <label for="select-sort-by"></label>
+          Sort by:
+          <select id="select-sort-by">
+            <option value="" selected>Not selected</option>
+            <option value="name">Name</option>
+            <option value="genres">Genres</option>
+          </select>
+        </label>
+        <label for="select-filter-by"></label>
+          Filter:
+          <select id="select-filter-by">
+            <option value="show-all">Show all</option>
+            <option value="favorites">Show favorites</option>
+          </select>
+        </label>
+      
+      
+        <label for="input-search">Search:</label>
+        <input type="search" id="input-search" placeholder="Search artists" />
+      
+    </section>
+    <section id="artists" class="grid-container"></section>
+    <dialog id="artistDetails"></dialog>
+    <dialog id="create-form"></dialog>
+    <dialog id="update-form"></dialog>
+  </body>
+  <script src="script.js" type="module"></script>
+</html>

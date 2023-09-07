@@ -1,0 +1,16 @@
+{
+  "name": "express-assignment",
+  "version": "1.0.0",
+  "description": "To run and install this app first open the file directory \"NODEJS-EXPRESS-BACKEND\" with Visual Studio Code. Open the terminal and type \"npm install express cors\". Then type \"node --watch script.js\".\r Now open the file directory \"NODE-EXPRESS-CRUD\" in Visual Studio Code, right click the \"index.html\" file and press \"Open with live server\".\r The app is now running. Enjoy!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "Laurits Schou",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
